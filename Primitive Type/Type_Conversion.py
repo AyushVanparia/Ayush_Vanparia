@@ -10,7 +10,7 @@ print(type(a))
 b = int(a)
 print(f"before conversion {type(a)}, after conversion {type(b)}")
 
-# in bool() anything except1
+# in bool() anything except
 # ""
 # 0
 # none
