@@ -1,8 +1,13 @@
+from abc import ABC, abstractmethod
+
+
 class InvalidOperationError(Exception):
     pass
 
+# abstract class
 
-class Stream:
+
+class Stream(ABC):
     def __init__(self):
         self.opened = False
 
@@ -15,6 +20,11 @@ class Stream:
         if not self.opened:
             raise InvalidOperationError("File is already close")
         self.opened = False
+
+# definig abstractmethod
+    @abstractmethod
+    def read(self):
+        pass
 
 
 class FileStream(Stream):
