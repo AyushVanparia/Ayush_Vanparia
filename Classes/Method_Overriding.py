@@ -13,7 +13,7 @@ class Mammal(Animal):
         self.weight = 1
         super().__init__()
 
-    def walk():
+    def walk(self):
         print("walk")
 
 

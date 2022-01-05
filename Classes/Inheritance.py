@@ -7,14 +7,14 @@ class Animal:
 
 
 class Mammal(Animal):
-    def walk():
+    def walk(self):
         print("walk")
 
 
 class Fish(Animal):
-    def swim():
+    def swim(self):
         print("swim")
 
 
 m = Mammal()
-print(m.age)
+m.eat()
