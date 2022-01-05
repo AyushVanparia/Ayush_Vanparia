@@ -17,4 +17,4 @@ class Fish(Animal):
 
 
 m = Mammal()
-m.eat()
+print(m.age)
