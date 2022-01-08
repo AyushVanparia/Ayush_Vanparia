@@ -1,7 +1,6 @@
 import sqlite3
 import json
 from pathlib import Path
-from sqlite3.dbapi2 import Cursor
 
 
 with sqlite3.connect("Abc.sqlite3") as conn:
