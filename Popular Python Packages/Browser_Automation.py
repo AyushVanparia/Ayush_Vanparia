@@ -16,8 +16,11 @@ password = browser.find_element_by_id("password")
 password.send_keys("qwe456yuioP")
 password.submit()
 
+
 # assert "AyushVanparia" in browser.page_source
 
 # pflink = browser.find_element_by_class_name(".user-profile-link")
 # linklabel = pflink.get_attribute("innerHTML")
 # assert "AyushVanparia" in linklabel
+
+browser.quit()
