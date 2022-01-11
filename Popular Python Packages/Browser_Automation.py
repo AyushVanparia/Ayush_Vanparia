@@ -11,9 +11,9 @@ browser.get("https://github.com")
 Signin_link = browser.find_element_by_link_text("Sign in")
 Signin_link.click()
 username = browser.find_element_by_id("login_field")
-username.send_keys("ayushvanparia@gmail.com")
+username.send_keys("test1@gmail.com")
 password = browser.find_element_by_id("password")
-password.send_keys("qwe456yuioP")
+password.send_keys("asdf")
 password.submit()
 
 
