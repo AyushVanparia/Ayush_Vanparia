@@ -8,6 +8,8 @@ beautifulsoup4 = "*"
 requests = "*"
 selenium = "*"
 pypdf2 = "*"
+pillow = "*"
+django = "*"
 
 [dev-packages]
 autopep8 = "*"
