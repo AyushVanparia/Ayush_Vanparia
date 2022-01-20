@@ -10,6 +10,7 @@ selenium = "*"
 pypdf2 = "*"
 pillow = "*"
 django = "*"
+django-tastypie = "*"
 
 [dev-packages]
 autopep8 = "*"
